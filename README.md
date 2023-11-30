@@ -28,3 +28,7 @@
 在Q-learning的基础上，DQN提出了两个技巧使得Q网络的更新迭代更稳定。
 - **经验回放 Experience Replay**：主要解决样本关联性和利用效率的问题。使用一个经验池存储多条经验s,a,r,s'，再从中随机抽取一批数据送去训练。
 - **固定Q目标 Fixed-Q-Target**：主要解决算法训练不稳定的问题。复制一个和原来Q网络结构一样的Target Q网络，用于计算Q目标值。
+#### DQN 算法流程
+  <div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/DQN.png">
+  </div>
