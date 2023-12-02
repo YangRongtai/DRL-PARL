@@ -32,3 +32,24 @@
   <div align="center">
     <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/DQN.png">
   </div>
+
+### 三、基于策略梯度方法
+#### Policy Gradient —— Reinforce简介
+- 在强化学习中，有两大类方法，一种基于值（Value-based），一种基于策略（Policy-based）
+  - Value-based的算法的典型代表为Q-learning和SARSA，将Q函数优化到最优，再根据Q函数取最优策略。
+  - Policy-based的算法的典型代表为Policy Gradient，直接优化策略函数。
+
+- 采用神经网络拟合策略函数，需计算策略梯度用于优化策略网络。
+  - 优化的目标是在策略`π(s,a)`的**期望回报**：所有的轨迹获得的回报R与对应的轨迹发生概率p的加权和，当N足够大时，可通过**采样**N个Episode求平均的方式近似表达。
+  <div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/sample.png">
+  </div>
+  - 优化目标对参数θ求导后得到策略梯度：
+  <div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/gradient.png">
+  </div>
+
+#### Reinforce 算法流程
+  <div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/Reinfroce_procedure.png">
+  </div>
