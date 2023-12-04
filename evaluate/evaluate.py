@@ -14,7 +14,7 @@ def Evaluate(rewards1, rewards2):
     df = pd.DataFrame(rewards).melt(var_name='episode', value_name='reward')
 
     sns.set_theme(style="darkgrid")
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(8, 5))
     ax = sns.lineplot(x="episode", y="reward", data=df, color='blue', linestyle='--')  # DarkOrchid
     ax.set_title('Rewards over Episodes')
     ax.set_xlabel('Episodes')
