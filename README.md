@@ -44,7 +44,8 @@
   <div align="center">
     <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/sample.png">
   </div>
-  - 优化目标对参数θ求导后得到策略梯度：
+
+   - 优化目标对参数θ求导后得到策略梯度：
   <div align="center">
     <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/gradient.png">
   </div>
