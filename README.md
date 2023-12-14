@@ -71,5 +71,10 @@
 
 ##### DDPG 网络更新
 <div align="center">
-    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/AC-1.png">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/AC-2.png">
+</div>
+
+##### DDPG 代码框架
+<div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/DDPG.png">
 </div>
