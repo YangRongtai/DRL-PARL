@@ -64,4 +64,12 @@
 - DDPG使用策略网络直接输出确定性动作。
 - DDPG使用了Actor-Critic的架构。
 #### 策略网络和Q网络（Actor-Critic）
+##### DQN->DDPG
+<div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/AC-1.png">
+</div>
 
+##### DDPG 网络更新
+<div align="center">
+    <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/AC-1.png">
+</div>
