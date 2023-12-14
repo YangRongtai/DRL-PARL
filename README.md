@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/RL%E6%A6%82%E8%A7%88.png">
 </div>
-
+[笔记链接](https://onedrive.live.com/view.aspx?resid=587F20AF69B21397%21583&id=documents)
 ### 一、表格型方法
 #### Q-learning 简介
 - Sarsa全称是state-action-reward-state'-action'，目的是学习特定的state下，特定action的价值Q，最终建立和优化一个Q表格，以state为行，action为列，根据与环境交互得到的reward来更新Q表格，更新公式为：
