@@ -56,3 +56,12 @@
   <div align="center">
     <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/data/Reinfroce_procedure.png">
   </div>
+  
+### 四、连续动作空间
+#### DDPG 简介
+- DDPG的提出动机其实是为了让DQN可以扩展到连续的动作空间。
+- DDPG借鉴了DQN的两个技巧：**经验回放** 和 **固定Q网络**。
+- DDPG使用策略网络直接输出确定性动作。
+- DDPG使用了Actor-Critic的架构。
+#### 策略网络和Q网络（Actor-Critic）
+
