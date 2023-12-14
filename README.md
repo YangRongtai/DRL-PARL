@@ -3,7 +3,8 @@
 <div align="center">
   <img src="https://github.com/YangRongtai/DRL-PARL/blob/master/RL%E6%A6%82%E8%A7%88.png">
 </div>
-- 笔记链接
+
+##### 笔记链接
 :notebook: [点击这里查看我的笔记](https://onedrive.live.com/view.aspx?resid=587F20AF69B21397%21583&id=documents)  
 
 ### 一、表格型方法
